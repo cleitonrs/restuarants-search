@@ -5,11 +5,17 @@ const Card = styled.div`
   display: flex;
   justify-content: center;
   padding: 5px;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 6px;
   background-image: url(${(props) => props.photo});
   background-size: cover;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform .4s;
+  :hover {
+    transform: scale(1.09)
+  }
   
 `
 const Title = styled.span`
