@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import logo from "../../assets/logo.svg"
 
 import restaurante from "../../assets/restaurante-fake.png"
-import { Card, RestaurantCard, Modal } from "../../components"
-import { Wrapper, Container, Search, Logo, Map, Carousel, CarouselTitle } from "./styles";
+import { Card, RestaurantCard, Modal, Map } from "../../components"
+import { Wrapper, Container, Search, Logo, Carousel, CarouselTitle } from "./styles";
 import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 
@@ -52,7 +52,7 @@ const Home = () => {
         <RestaurantCard />
       </Container>
       <Map />
-      <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)} />
+      {/* <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)} /> */}
     </Wrapper>
   )
 }
