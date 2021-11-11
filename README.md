@@ -6,6 +6,9 @@ A project created on bootcamp Impulso React Web Developer from DIO.me
 
 ![screen jpeg](https://user-images.githubusercontent.com/62728037/141158777-c24edd7b-2513-43e2-b34a-d3d362fb0ac2.jpg)
 
+Live Site URL: https://buscador-de-restaurante.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
